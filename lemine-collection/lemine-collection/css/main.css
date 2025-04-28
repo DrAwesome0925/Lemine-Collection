@@ -1,0 +1,429 @@
+.body{
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: blueviolet;
+    color: blueviolet;
+    background-image: url("collect_back_new.jpg");
+}
+
+.background {
+    background-color: darkorchid;
+    background-image: url("../images-collection/collect_back_new.jpg");
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #eeeef3;
+    padding: 10px 0;
+    font-weight: bold;
+    border-radius: 10px;
+    margin-top: 110px;
+    font-family: "KoHo", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+nav a {
+    text-decoration: none;
+    color: #070303;
+    font-size: 1.1em;
+}
+
+nav a:hover {
+    color: #7eb9f4;
+}
+
+nav li {
+    display: inline;
+    font-size: x-large;
+    padding: 60px;
+    font-family: "KoHo", sans-serif;
+    font-style: normal;
+}
+
+.loading_header img {
+    border-radius: 20px;
+    width: 100%;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.row {
+    text-align: center;
+    position: relative;
+}
+
+.column_one, .column_two, .column_three, .column_four {
+    display: flex;
+    justify-content:space-between;
+    margin-bottom: 30px;
+}
+
+.header {
+    text-align: center;
+    font-size: 2em;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.4);
+    font-family: "KoHo", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: azure;
+    
+}
+
+.control_text {
+    font-family: "KoHo", sans-serif;
+    font-weight: 4000;
+    font-style: normal;
+    color: azure;
+    text-align: left;
+    margin-top: 30px;
+}
+
+.controll_section img{
+    margin-top: 30px;
+    border-radius: 20px;
+    width: 100%;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.controller-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit);
+    gap: 15px;
+    padding: 20px;
+    background-color: #0d0d1a;
+    margin: 8px;
+}
+
+.controller-grid img {
+    width: 100%;
+    border-radius: 8px;
+    border: 2px solid #333;
+}
+
+.controller_bio p {
+    font-family: "KoHo", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: azure;
+    text-align: left;
+    font-size: 20px;
+}
+
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #7171bb;
+    font-size: 0.9em;
+    color: #6C8699;
+}
+
+.broken_controllers {
+    font-family: "KoHo", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 40px;
+    color: #2A3D67
+}
+
+.nunchuck_image img {
+    margin-top: 30px;
+    width: 55%
+}
+
+.sydney_toy h1 {
+    font-family: "KoHo", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: azure;
+    text-align: right;
+    font-size: 70px;
+    margin-top: -390px;
+    padding: 10px;
+}
+
+.nunchuck_bio p {
+    font-family: "KoHo", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: azure;
+    text-align: left;
+    font-size: 18px;
+    margin-left: 550px;
+}
+
+.nunchuck_link {
+    margin: 20%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.left_joycon_image img {
+    margin-top: 30px;
+    width: 55%
+}
+
+.left_joycon_header h1 {
+    margin-top: 30px;
+    font-family: "KoHo", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: azure;
+    text-align: center;
+    margin-left: 510px;
+    font-size: 65px;
+    margin-top: -370px;
+}
+
+.left_joycon_bio {
+    font-family: "KoHo", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: azure;
+    text-align: left;
+    margin-left: 550px;
+    font-size: 18px;
+}
+
+.left_joycon_link {
+    margin: 20%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.author_controller h2 {
+    margin-top: 30px;
+    font-family: "KoHo", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: azure;
+    text-align: left;
+    font-size: 65px;
+    margin-left: 430px;
+    margin-bottom: -265px;
+}
+
+.logan_image img {
+    border-radius: 20px;
+}
+
+.author_bio {
+    font-family: "KoHo", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: azure;
+    text-align: left;
+    margin-left: 440px;
+    font-size: 18px;
+    margin-top: -255px;
+}
+
+.control_chaos img {
+    margin-top: 30px;
+    border-radius: 20px;
+    width: 100%;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.under_appreciated {
+    font-family: "KoHo", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: azure;
+    text-align: left;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.plug_image img {
+    margin-top: 30px;
+    width: 55%
+}
+
+.jakks_header h1 {
+    margin-top: 30px;
+    font-family: "KoHo", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: azure;
+    text-align: center;
+    margin-left: 490px;
+    font-size: 65px;
+    margin-top: -370px;
+}
+
+.jakks_bio p {
+    font-family: "KoHo", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: azure;
+    text-align: left;
+    margin-left: 550px;
+    font-size: 18px;
+}
+
+.plug_n_play_link {
+    margin: 20%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.plug_image img {
+    margin-top: 30px;
+    width: 55%
+}
+
+.johns_header h1 {
+    margin-top: 30px;
+    font-family: "KoHo", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: azure;
+    text-align: center;
+    margin-left: 410px;
+    font-size: 65px;
+    margin-top: -370px;
+}
+
+.johns_bio p {
+    font-family: "KoHo", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: azure;
+    text-align: left;
+    margin-left: 545px;
+    font-size: 18px;
+}
+
+.johns_link {
+    margin: 20%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.playstation_five_image img {
+    margin-top: 30px;
+    width: 55%
+}
+
+.five_header h1 {
+    margin-top: 30px;
+    font-family: "KoHo", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: azure;
+    text-align: center;
+    margin-left: 505px;
+    font-size: 65px;
+    margin-top: -370px;
+}
+
+.ps5_bio p {
+    font-family: "KoHo", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: azure;
+    text-align: left;
+    margin-left: 545px;
+    font-size: 18px;
+}
+
+.ps5_link {
+    margin: 20%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.ds_image img {
+    margin-top: 30px;
+    width: 55%
+}
+
+.ds_header h1 {
+    margin-top: 30px;
+    font-family: "KoHo", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: azure;
+    text-align: center;
+    margin-left: 524px;
+    font-size: 55px;
+    margin-top: -380px;
+}
+
+.ds_bio p {
+    font-family: "KoHo", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: azure;
+    text-align: left;
+    margin-left: 545px;
+    font-size: 18px;
+}
+
+.ds_link {
+    margin: 20%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.no_cap img {
+    margin-top: 30px;
+    width: 55%
+}
+
+.three_ds_header h1 {
+    margin-top: 30px;
+    font-family: "KoHo", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: azure;
+    text-align: center;
+    margin-left: 485px;
+    font-size: 55px;
+    margin-top: -380px;
+}
+
+.three_ds_bio p {
+    font-family: "KoHo", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: azure;
+    text-align: left;
+    margin-left: 545px;
+    font-size: 18px;
+}
+
+.three_ds_link {
+    margin: 20%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.FAQ_header h1 {
+    margin-top: 30px;
+    font-family: "KoHo", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: azure;
+    text-align: left;
+    font-size: 60px;
+}
+
+.faq_header_two h2 {
+    margin-top: 30px;
+    font-family: "KoHo", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: azure;
+    text-align: left;
+    font-size: 60px;
+}
