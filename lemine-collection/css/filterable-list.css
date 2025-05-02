@@ -1,0 +1,124 @@
+/* Style for items in the list */
+.filterable-list > .item {
+    overflow: visible;
+}
+
+.filterable-list > .item.hidden { 
+    display: none;
+}
+
+.no-matches-message {
+    display: none;
+}
+
+
+.filter-controls {
+    font-family: sans-serif;
+}
+
+.filter-controls a {
+    text-decoration: none;
+    color: #000;
+}
+
+.filter-controls a.active {
+    color: dodgerblue;
+    border-radius: 4px;
+    transition: all 0.2s ease;
+}
+
+/* --- Custom Checkbox Styles --- */
+
+/* Container for the label */
+.custom-checkbox-label {
+    display: inline-flex;
+    align-items: center;
+    cursor: pointer;
+    margin-right: 15px;
+    position: relative;
+    user-select: none;
+}
+
+/* Hide the actual checkbox visually but keep it accessible */
+.custom-checkbox-label input[type="checkbox"] {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0; 
+    width: 0; 
+}
+
+/* Style the custom checkbox (the span) */
+.custom-checkbox-box {
+    display: inline-block;
+    width: 16px; 
+    height: 16px;
+    background-color: transparent;
+    border: 1px solid #ccc;
+    margin-right: 8px;
+    transition: background-color 0.2s ease;
+}
+
+/* Style for the custom box when the hidden checkbox is checked */
+.custom-checkbox-label input[type="checkbox"]:checked + .custom-checkbox-box {
+    background-color: #000; 
+    border-color: #000;
+}
+
+/* Style for accessibility */
+.custom-checkbox-label input[type="checkbox"]:focus + .custom-checkbox-box {
+    outline: 2px solid dodgerblue;
+    outline-offset: 1px;
+}
+
+/* --- Custom Radio Button Styles --- */
+
+/* Container for the label */
+.custom-radio-label {
+    display: inline-flex;
+    align-items: center;
+    cursor: pointer;
+    margin-right: 15px;
+    position: relative;
+    user-select: none;
+}
+
+/* Hide the actual radio button visually but keep it accessible */
+.custom-radio-label input[type="radio"] {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+/* Style the custom round button (the span) */
+.custom-radio-button {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 50%;
+    margin-right: 8px;
+    transition: background-color 0.2s ease, border-color 0.2s ease;
+    position: relative;
+}
+
+/* Style the custom button when the hidden radio is checked */
+
+.custom-radio-label input[type="radio"]:checked + .custom-radio-button {
+    background-color: #333;
+    border-color: #333;
+}
+
+
+.custom-radio-label input[type="radio"]:checked + .custom-radio-button::after {
+    transform: translate(-50%, -50%) scale(1);
+}
+
+/* Style for accessibility */
+.custom-radio-label input[type="radio"]:focus + .custom-radio-button {
+    outline: 2px solid dodgerblue;
+    outline-offset: 1px;
+}
